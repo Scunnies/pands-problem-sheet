@@ -14,4 +14,4 @@ BMI = Weight / (Height*Height) * 10000
 #present results
 print ("Thank you "+ Name)
 print ("Your BMI is " + format(round(BMI, 2)))
-#I googled how to keep to two decimal places and found the answer on TuturialDeep.com
+#I googled how to keep to two decimal places and found the answer https://tutorialdeep.com/knowhow/round-float-to-2-decimal-places-python/
