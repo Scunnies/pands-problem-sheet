@@ -4,7 +4,8 @@
 #ask the user to type a sentence
 sentence = input("Please type a sentence: ")
 
-#slice the string
-#step it backwards by two places each time
+#I found this solution using W3 schools
+# slice the string by NOT entering a start or end character
+# showing only every second letter in reverse order
 #print the result
 print(sentence[::-2])
