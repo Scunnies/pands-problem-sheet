@@ -13,7 +13,7 @@ with open ("poem.txt", "r") as f:
             count = count+1 
  
 print(count)
-f.close() # don't forget to close the file!
+
 
 
 
