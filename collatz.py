@@ -12,7 +12,7 @@ while userInt < 0:
   print("Sorry, your number must be greater than 0.")
   userInt = int(input('Enter a positive integer: '))
 
-print(userInt)
+
 
 # use def to create a user defined function called collatz
 # and implement the calculations
