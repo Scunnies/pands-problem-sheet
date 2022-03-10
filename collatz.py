@@ -28,4 +28,4 @@ while userInt != 1:
   userInt = collatz(userInt)
 
 # print values derived from the original input
-  print(userInt, end=" ")
+  print (userInt, end=" ") 
