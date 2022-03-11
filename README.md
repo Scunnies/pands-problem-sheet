@@ -35,7 +35,7 @@ At first a daunting task, I found the real python website a huge help and it exp
 
 This program asks the user to input any positive integer and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.  The program ends if the current value is one.
 
-I created a function that had one parameter ‘number’ which, depending on whether the number was even or odd, would return a value and keep calling the function on that number until a value of 1 was returned. 
+I created a function that had one parameter `number` which, depending on whether the number was even or odd, would return a value and keep calling the function on that number until a value of 1 was returned. 
 
 ### REFERENCES:
 - https://www.educative.io/edpresso/how-to-implement-the-collatz-sequence-in-c-and-python
@@ -48,7 +48,9 @@ I created a function that had one parameter ‘number’ which, depending on whe
 
 This program outputs whether today is a weekday.
 
-The first step in this program was to ‘import datetime’.  From this module, in order to establish today's date, I used the datetime.today function and also the weekday function to establish the week number.  Then, based on Monday to Friday being numbered 1 – 5, I checked ‘if’ the week no. is greater than 5 then it’s a weekend ‘else’ it is a weekday.
+The first step in this program was to `import datetime`.  From this module, in order to establish today's date, I used the `datetime.today` function and also the `weekday` function to establish the week number.  Then, based on Monday to Friday being numbered 1 – 5, I checked `if` the week no. is greater than 5 then it’s a weekend `else` it is a weekday.
+
+In my output I also assumed that the user works Monday to Friday!
 
 ### REFERENCES:
 - https://www.geeksforgeeks.org/python-program-to-find-day-of-the-week-for-a-given-date/
@@ -57,7 +59,7 @@ The first step in this program was to ‘import datetime’.  From this module, 
  
 ## Week 6 Task – squareroot.py
 
-This program takes a positive floating-point number as input and outputs an approximation of its square root.  We were asked to create our own function and not to use the built-in functions x ** .5 or math.sqrt(x).
+This program takes a positive floating-point number as input and outputs an approximation of its square root.  We were asked to create our own function and not to use the built-in functions x ** .5 or `math.sqrt(x)`.
 
 I struggled a lot just to get my head around the concept of approximating a square root, never mind coding it, never mind not being able to use the obvious functions in Python of math.sqrt. 
 
@@ -83,7 +85,7 @@ For the purposes of the exercise I assumed that all instances of the letter ‘e
 
 Initially I had over-coded this and ran into difficulties straightaway.  I had mistakenly thought from my research that the program would have to read my text line by line.  Taking away a couple of lines and simplifying it meant that it ran better for me. 
 
-The program iterates through code in the ‘for’ loop detecting and counting lowercase and uppercase instances of the letter ‘E’, of which there are a total of 79. 
+The program iterates through code in the `for` loop detecting and counting lowercase and uppercase instances of the letter ‘E’, of which there are a total of 79. 
 
 ### REFERENCES:
 - https://stackoverflow.com/questions/18647707/count-letters-in-a-text-file
