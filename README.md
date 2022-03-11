@@ -1,5 +1,5 @@
 # Pands Problem Sheets - Weekly solutions
-## This is my repository for weekly problem sheets containing solutions to problems and supporting documentation
+## This is my repository for weekly problem sheets containing solutions to problems and supporting references
 
 ### Eleanor Sammon
 ### Student ID: G00411277
