@@ -4,6 +4,7 @@
 ### Eleanor Sammon
 ### Student ID: G00411277
 
+
 ## Week 2 Task – bmi.py
 
 This program calculates a person’s Body Mass Index (BMI). The inputs are the person's height in centimeters and weight in kilograms.  The output is their BMI.
