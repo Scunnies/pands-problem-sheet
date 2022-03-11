@@ -4,8 +4,11 @@
 # I have assumed that all instances of 'e's are to be counted
 
 
-# opens the file I created 
-with open ("poem.txt", "r") as f:
+# read in the filename, 'read' only 
+filename = open("poem.txt", "r")
+
+
+with filename as f:
     count = 0 # define count and set to zero
     word = f.read() # read in the file 
     for w in word:  # tells the program what to look for in my variable
