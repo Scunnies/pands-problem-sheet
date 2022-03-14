@@ -92,7 +92,6 @@ The program iterates through code in the `for` loop detecting and counting lower
 - https://www.delftstack.com/howto/python/occurrences-of-a-character-in-a-string-in-python/
 - https://www.cs2study.com/wp-content/uploads/2021/03/Text-File-exam-based-questions.pdf
 - https://www.sanfoundry.com/python-program-read-file-counts-number/
-- https://docs.python.org/3/library/sys.html?highlight=sys#module-sys
 
 
 ## Ancillary references for readme file:
@@ -103,5 +102,4 @@ The program iterates through code in the `for` loop detecting and counting lower
 
 ## **WITH THANKS TO:**
 ### Andrew Beatty
-
 
