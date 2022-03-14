@@ -6,16 +6,28 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-x = np.linspace(0, 4, 250) 
+x = np.linspace(0, 4, 250) # I researched how to plot a smooth curve
+
+# the basic calculations to be plotted
 y = x
 y2 = x*2    
 y3 = x**3
 
-plt.plot(x, y, 'r')
-plt.plot(x, y2, 'g')
-plt.plot(x, y3, 'b')
+# the fun part! presenting the output in an attractive way
+plt.plot(x, y, 'c-', label = "f(x) = x")
+plt.plot(x, y2, 'm--', label = "g(x) = x2")
+plt.plot(x, y3, 'y:', label = "h(x) = x3")
+
+# adding labels and a legend for clarity
+plt.title('Week 8 Task - Plotting Functions')
+plt.xlabel('x axis')
+plt.ylabel('y axis')
+plt.legend()
+
 plt.show()
 
 
 # https://www.w3schools.com/python/matplotlib_intro.asp
 # https://scriptverse.academy/tutorials/python-matplotlib-plot-function.html
+# https://www.adamsmith.haus/python/answers/how-to-plot-a-smooth-line-with-matplotlib-in-python
+# https://matplotlib.org/2.1.2/api/_as_gen/matplotlib.pyplot.plot.html
