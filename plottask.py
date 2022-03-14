@@ -6,14 +6,14 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-x = np.arange(0.0,4.0) 
+x = np.linspace(0, 4, 250) 
 y = x
 y2 = x*2    
 y3 = x**3
 
-plt.plot(x, y)
-plt.plot(x, y2)
-plt.plot(x, y3)
+plt.plot(x, y, 'r')
+plt.plot(x, y2, 'g')
+plt.plot(x, y3, 'b')
 plt.show()
 
 
