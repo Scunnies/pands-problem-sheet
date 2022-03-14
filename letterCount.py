@@ -1,4 +1,4 @@
-# this program that reads in a text file and outputs the number of e's it contains
+# this program reads in a text file and outputs the number of e's it contains
 # Author: Eleanor Sammon
 # my data file "poem.txt" contains Do not go gentle into that good night by Dylan Thomas
 # I have assumed that all instances of 'e's are to be counted
