@@ -101,7 +101,7 @@ This weeks task called for a program that displays a plot of the functions f(x)=
 
 Having already been shown how to plot x and y in the weekly lecture I had a start on the process and it was easy enough to run the calculations for the remaining two functions. 
 
-Having started with a range I discovered that it made for a very square line so I researched how to 'smooth' Call `numpy.linspace(start, stop, num)` to create an range of num equally-spaced numbers between my range.  
+Having started with a range I discovered that it made for a very square line so I researched how to 'smooth' the line and changed the code to `numpy.linspace(start, stop, num)` to create an range of num equally-spaced numbers between my range.  
 
 I then researched the formatting options and had fun experimenting with that before adding my title, axis labels and legend. 
 
