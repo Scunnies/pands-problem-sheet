@@ -75,7 +75,7 @@ I understand that some schools of thought that recursion is a poor approach in P
 - https://beapython.dev/2020/05/14/is-recursion-bad-in-python/#:~:text=Recursion%20can%20be%20considered%20bad,calls%20on%20the%20call%20stack.
 - https://stackoverflow.com/questions/4278327/danger-of-recursive-functions
  
-## Week 7 Task
+## Week 7 Task - letterCount.py
 
 This program counts the occurrences of the letter ‘e’ in a text file of my own creation.  I made the assumption that I could select my own text.
 
@@ -87,11 +87,30 @@ Initially I had over-coded this and ran into difficulties straightaway.  I had m
 
 The program iterates through code in the `for` loop detecting and counting lowercase and uppercase instances of the letter ‘E’, of which there are a total of 79. 
 
+
 ### REFERENCES:
 - https://stackoverflow.com/questions/18647707/count-letters-in-a-text-file
 - https://www.delftstack.com/howto/python/occurrences-of-a-character-in-a-string-in-python/
 - https://www.cs2study.com/wp-content/uploads/2021/03/Text-File-exam-based-questions.pdf
 - https://www.sanfoundry.com/python-program-read-file-counts-number/
+
+
+## Week 8 Task - plottask.py
+
+This weeks task called for a program that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+
+Having already been shown how to plot x and y in the weekly lecture I had a start on the process and it was easy enough to run the calculations for the remaining two functions. 
+
+Having started with a range I discovered that it made for a very square line so I researched how to 'smooth' Call `numpy.linspace(start, stop, num)` to create an range of num equally-spaced numbers between my range.  
+
+I then researched the formatting options and had fun experimenting with that before adding my title, axis labels and legend. 
+
+### REFERENCES:
+
+- https://www.w3schools.com/python/matplotlib_intro.asp
+- https://scriptverse.academy/tutorials/python-matplotlib-plot-function.html
+- https://www.adamsmith.haus/python/answers/how-to-plot-a-smooth-line-with-matplotlib-in-python
+- https://matplotlib.org/2.1.2/api/_as_gen/matplotlib.pyplot.plot.html
 
 
 ## Ancillary references for readme file:
@@ -101,5 +120,5 @@ The program iterates through code in the `for` loop detecting and counting lower
 
 
 ## **WITH THANKS TO:**
-### Andrew Beatty
+### Andrew Beatty, Lecturer, Programming and Scripting, GMIT
 
