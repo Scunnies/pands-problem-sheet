@@ -17,11 +17,12 @@ y3 = x**3
 plt.plot(x, y, 'c-', label = "f(x) = x")
 plt.plot(x, y2, 'm--', label = "g(x) = x2")
 plt.plot(x, y3, 'y:', label = "h(x) = x3")
+plt.grid(color = 'b', linestyle = '--', linewidth = 0.25)
 
 # adding labels and a legend for clarity
-plt.title('Week 8 Task - Plotting Functions')
-plt.xlabel('x axis')
-plt.ylabel('y axis')
+plt.title('Week 8 Task - Plotting Functions', loc = 'right')
+plt.xlabel('X AXIS')
+plt.ylabel('Y AXIS')
 plt.legend()
 
 plt.show()
