@@ -77,15 +77,15 @@ I understand that some schools of thought that recursion is a poor approach in P
  
 ## Week 7 Task - letterCount.py
 
-This program counts the occurrences of the letter ‘e’ in a text file of my own creation.  I made the assumption that I could select my own text.
+This program counts the occurrences of the letter ‘e’ in a text file called Mobydick.txt containing the introduction and first chapter of the book by Herman Melville.
 
-I created a text file called ‘poem.txt’ and containing the poem Do Not Go Gentle Into that Good Night by Dylan Thomas and read it in as an argument, read only.  
+In order to read in the file as an argument from the command line I had to install the `sys` module.  The sys module in Python provides various functions and variables that are used to manipulate different parts of the Python runtime environment.  Using the `.argv` function I read in the file from the command line as an argument, read only.  The first argument is the filename itself (lettercount.py) at position [0] and the second argument is the filename (mobydick.txt) at position [1].  
 
-For the purposes of the exercise I assumed that all instances of the letter ‘e’ should be counted, both uppercase and lowercase and had to specify accordingly in my code. 
+For the purposes of the exercise I assumed that all instances of the letter ‘e’ should be counted, both uppercase and lowercase and accordingly had to specify both in my code. 
 
-Initially I had over-coded this and ran into difficulties straightaway.  I had mistakenly thought from my research that the program would have to read my text line by line.  Taking away a couple of lines and simplifying it meant that it ran better for me. 
+Initially I had over-coded this and ran into difficulties straightaway.  I had mistakenly thought from my research that the program would have to read my text line by line.  Taking away a couple of lines and simplifying it meant that it ran better for me and it looked tighter. 
 
-The program iterates through code in the `for` loop detecting and counting lowercase and uppercase instances of the letter ‘E’, of which there are a total of 79. 
+The program iterates through code in the `for` loop detecting and counting lowercase and uppercase instances of the letter ‘E’, of which there are a total of 1217. I corroborated the answer by pasting the text into Google docs and using the find function. 
 
 
 ### REFERENCES:
@@ -93,6 +93,7 @@ The program iterates through code in the `for` loop detecting and counting lower
 - https://www.delftstack.com/howto/python/occurrences-of-a-character-in-a-string-in-python/
 - https://www.cs2study.com/wp-content/uploads/2021/03/Text-File-exam-based-questions.pdf
 - https://www.sanfoundry.com/python-program-read-file-counts-number/
+- https://www.youtube.com/watch?v=decAHMKIo_A (What are Command Line Arguments, Codevault)
 
 
 ## Week 8 Task - plottask.py
