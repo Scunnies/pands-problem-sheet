@@ -1,19 +1,20 @@
 # this program reads in a text file and outputs the number of e's it contains
 # Author: Eleanor Sammon
-# my data file "poem.txt" contains Do not go gentle into that good night by Dylan Thomas
+# my data file is called mobydick.txt
 # I have assumed that all instances of 'e's are to be counted
 
 
-# read in the filename, 'read' only 
-filename = open("poem.txt", "r")
+# read in the filename, 'read' only from the command line
+import sys
+filename = open(sys.argv[1]) #the first argument being the filename itself, second argument is file to be read in
 
 
 with filename as f:
     count = 0 # define count and set to zero
-    word = f.read() # read in the file 
-    for w in word:  # tells the program what to look for in my variable
+    word = f.read() # read in the contents of the file 
+    for w in word:  
         if w[0] =='e' or w[0]=='E': # count lower and upper case occurences of letter E
-            count = count+1 
+            count = count+1 # adds them up until it reaches the end of the text
  
 print(count)
 
