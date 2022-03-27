@@ -5,27 +5,32 @@
 # program ends if the current value is one
 
 # ask user to input a positive integer
-userInt = int(input("Enter an integer: "))
+userint = int(input("Enter an integer: "))
 
 # allow for a correction if they put in a minus number
-while userInt < 0:
+while userint < 0:
   print("Sorry, your number must be greater than 0.")
-  userInt = int(input('Enter a positive integer: '))
+  userint = int(input('Enter a positive integer: '))
 
 
 
 # use def to create a user defined function called collatz
 # and implement the calculations
-def collatz(number):
-    if number % 2 == 0:  # for even numbers
-       return number // 2
-    
-    elif number % 2 == 1:  # for odd numbers
-       return 3 * number + 1
-       
-# execute while loop until output value equals 1
-while userInt != 1:
-  userInt = collatz(userInt)
 
-# print values derived from the original input
-  print (userInt, end=" ") 
+
+
+def collatz(number):
+  lst=[] # the list into which our calculations will be appended
+  lst.append(number)
+  
+  while(number!=1):  #execute while loop until output value equals 1
+    if(number%2==0): # if the number is divisible by 2
+        number=number//2
+        lst.append(number) # adds the number to the list
+    else:
+        number=number*3+1 # if the number is uneven
+        lst.append(number)
+  print(*lst, sep=", ") # to show our list without the square brackets
+
+
+collatz(userint) #runs our user-defined number through the programme

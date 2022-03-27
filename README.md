@@ -37,11 +37,14 @@ This program asks the user to input any positive integer and, if it is even, div
 
 I created a function that had one parameter `number` which, depending on whether the number was even or odd, would return a value and keep calling the function on that number until a value of 1 was returned. 
 
+My first attempt at this problem, while it ran ok, my answer wasn't printing in the required format so I subsequently revisited this task and, while still using the same principals of a function, this time the outputs appended to a list which led with the initial input integer when printed. 
+
 ### REFERENCES:
 - https://www.educative.io/edpresso/how-to-implement-the-collatz-sequence-in-c-and-python
 - https://www.pythonpool.com/collatz-sequence-python/
 - https://www.educative.io/edpresso/how-to-implement-the-collatz-sequence-in-c-and-python
 - https://arxiv.org/abs/1902.07312
+- https://stackoverflow.com/questions/11178061/print-list-without-brackets-in-a-single-row
 - Sweigart, A., *Automate the boring stuff with python*, Chapter 3. 
 
 ## Week 5 Task – weekday.py
