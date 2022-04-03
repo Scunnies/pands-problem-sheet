@@ -34,3 +34,12 @@ def collatz(number):
 
 
 collatz(userint) #runs our user-defined number through the programme
+
+
+# references:
+# https://www.educative.io/edpresso/how-to-implement-the-collatz-sequence-in-c-and-python
+# https://www.pythonpool.com/collatz-sequence-python/
+# https://www.educative.io/edpresso/how-to-implement-the-collatz-sequence-in-c-and-python
+# https://arxiv.org/abs/1902.07312
+# https://stackoverflow.com/questions/11178061/print-list-without-brackets-in-a-single-row
+# Sweigart, A., *Automate the boring stuff with python*, Chapter 3. 
