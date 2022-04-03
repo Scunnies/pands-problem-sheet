@@ -20,3 +20,8 @@ if weekNumber < 5:
     print("Get ready for work! Today is a weekday")
 else:
     print ("You can relax! It's the weekend")
+
+# references:
+# https://www.geeksforgeeks.org/python-program-to-find-day-of-the-week-for-a-given-date/
+# https://www.geeksforgeeks.org/python-datetime-module/
+# https://www.tutorialsrack.com/articles/324/how-to-find-the-current-day-is-weekday-or-weekends-in-python

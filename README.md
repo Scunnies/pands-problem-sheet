@@ -28,7 +28,7 @@ At first a daunting task, I found the real python website a huge help and it exp
 ### REFERENCES:
 - https://realpython.com/reverse-string-python/
 - https://www.w3schools.com/python/gloss_python_string_slice.asp
-- https://stackoverflow.com/questions/36003289/write-programs-that-read-a-line-of-input-as-a-string-and-print-every-second-lett
+- https://stackoverflow.com/questions/36003289/- - -write-programs-that-read-a-line-of-input-as-a-string-and-print-every-second-lett
 
  
 ## Week 4 Task – collatz.py
@@ -82,7 +82,9 @@ I understand that some schools of thought that recursion is a poor approach in P
 
 This program counts the occurrences of the letter ‘e’ in a text file called Mobydick.txt containing the introduction and first chapter of the book by Herman Melville.
 
-In order to read in the file as an argument from the command line I had to install the `sys` module.  The sys module in Python provides various functions and variables that are used to manipulate different parts of the Python runtime environment.  Using the `.argv` function I read in the file from the command line as an argument, read only.  The first argument is the filename itself (lettercount.py) at position [0] and the second argument is the filename (mobydick.txt) at position [1].  
+The task requires that the filename is read in as an argument so to run this program enter `python .\letterCount.py mobydick.txt`.
+
+In order to read in a file as an argument from the command line I had to install the `sys` module.  The sys module in Python provides various functions and variables that are used to manipulate different parts of the Python runtime environment.  Using the `.argv` function I read in the file from the command line as an argument, read only.  The first argument is the filename itself (lettercount.py) at position [0] and the second argument is the filename (mobydick.txt) at position `[1]`.  
 
 For the purposes of the exercise I assumed that all instances of the letter ‘e’ should be counted, both uppercase and lowercase and accordingly had to specify both in my code. 
 
