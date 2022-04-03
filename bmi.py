@@ -1,16 +1,16 @@
 #this programme is to calculate a person's body mass index
 # Author: Eleanor Sammon
 
-Name = input ("What is your name: ")
-print ("Hello " + Name) 
+name = input ("What is your name: ")
+print ("Hello " + name) 
 
 #establish the two values required to do the calculation
-Weight = int (input ("What is your weight in kilograms? "))
-Height = int (input ("What is your height in centimetres? "))
+weight = int (input ("What is your weight in kilograms? "))
+height = int (input ("What is your height in centimetres? "))
 
 #perform the calculation
-BMI = Weight / (Height*Height) * 10000
+bmi = weight / (height*height) * 10000
 
 #present results
-print ("Thank you "+ Name + ". Your BMI is " + format(round(BMI, 2)))
+print ("Thank you "+ name + ". Your BMI is " + format(round(bmi, 2)))
 #I googled how to keep to two decimal places and found the answer https://tutorialdeep.com/knowhow/round-float-to-2-decimal-places-python/
