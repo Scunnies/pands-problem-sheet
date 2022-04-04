@@ -28,7 +28,7 @@ At first a daunting task, I found the real python website a huge help and it exp
 ### REFERENCES:
 - https://realpython.com/reverse-string-python/
 - https://www.w3schools.com/python/gloss_python_string_slice.asp
-- https://stackoverflow.com/questions/36003289/- - -write-programs-that-read-a-line-of-input-as-a-string-and-print-every-second-lett
+- https://stackoverflow.com/questions/36003289/
 
  
 ## Week 4 Task – collatz.py
